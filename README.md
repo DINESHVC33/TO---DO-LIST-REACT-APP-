@@ -38,7 +38,7 @@ Before proceeding, make sure you have the following installed:
 
    - Run the following command to install the dependencies for the React frontend:
      ```
-     cd ../frontend
+     cd frontend
      npm install
      ```
 
