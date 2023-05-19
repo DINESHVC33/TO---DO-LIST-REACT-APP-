@@ -19,7 +19,7 @@ Before proceeding, make sure you have the following installed:
 
 2. Clone the project repository from GitHub:
    ```
-   git clone <>
+   git clone https://github.com/DINESHVC33/TO-DO-LIST-REACT-APP.git
    ```
 
 3. Open the project folder in Visual Studio Code:
@@ -96,9 +96,6 @@ The Node.js server provides the following API endpoints for task management:
 Make sure to make the appropriate HTTP requests to these endpoints to perform task management operations.
 
 The backend server provides API endpoints for interacting with the MongoDB Atlas database. You can define your own routes and controllers to handle specific functionalities.
-
-## APP Functionalities
-
 
 ## Additional Resources
 
