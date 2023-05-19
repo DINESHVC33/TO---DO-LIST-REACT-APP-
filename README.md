@@ -1,5 +1,5 @@
 # TO-DO-LIST-REACT-APP
-# React, Node.js, Express, and MongoDB Atlas Project in Visual Studio Code
+# React app using  Node.js, Express.json, and MongoDB Atlas Project in Visual Studio Code
 
 This README file provides an overview and instructions for setting up a project that combines React for the frontend, Node.js with Express for the backend server, and MongoDB Atlas for the database using Visual Studio Code as the development environment.
 
