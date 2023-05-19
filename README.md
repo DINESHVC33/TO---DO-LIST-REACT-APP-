@@ -1,7 +1,7 @@
 # TO-DO-LIST-REACT-APP
 # React app using  Node.js, Express.json, and MongoDB Atlas Project in Visual Studio Code
 
-This README file provides an overview and instructions for setting up a project that combines React for the frontend, Node.js with Express for the backend server, and MongoDB Atlas for the database using Visual Studio Code as the development environment.
+This README file provides an overview and instructions for setting up the TO DO LIST REACT APP that combines React for the frontend, Node.js with Express for the backend server, and MongoDB Atlas for the database using Visual Studio Code as the development environment.
 
 ## Prerequisites
 
@@ -46,8 +46,8 @@ Before proceeding, make sure you have the following installed:
    - Create a `.env` file in the root of the `server` folder.
    - Add the following environment variables to the `.env` file:
      ```
-     PORT=<server-port>
-     MONGODB_URI=<mongodb-connection-string>
+     PORT= 5000
+     MONGODB_URI=mongodb+srv://dineshvc33:dineshvc33@cluster0.5facuqt.mongodb.net/CRUD_DB?retryWrites=true&w=majority
      ```
 
 ## Running the Application
@@ -56,15 +56,15 @@ Before proceeding, make sure you have the following installed:
    - Open the integrated terminal in Visual Studio Code: View -> Terminal.
    - Run the following command in the terminal:
      ```
-     cd server
-     npm run server
+     cd backend
+     npm run dev
      ```
 
 2. Start the React app:
    - Open a new integrated terminal in Visual Studio Code: View -> Terminal.
    - Run the following command in the terminal:
      ```
-     cd client
+     cd frontend
      npm start
      ```
 
@@ -74,8 +74,8 @@ The React app will be accessible at `http://localhost:3000`, and the Node.js bac
 
 The project structure is organized as follows:
 
-  - `/client`: Contains the React frontend application.
-  - `/server`: Contains the Node.js backend server.
+  - `/frontend`: Contains the React frontend application.
+  - `/backend`: Contains the Node.js backend server.
   - `/routes`: Contains the API routes.
   - `/controllers`: Contains the controllers for handling API requests.
   - `/models`: Contains the MongoDB models.
@@ -94,6 +94,4 @@ The backend server provides API endpoints for interacting with the MongoDB Atlas
 - MongoDB Atlas documentation: [https://docs.atlas.mongodb.com](https://docs.atlas.mongodb.com)
 - Visual Studio Code documentation: [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
 
-## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and use it for your own purposes.
