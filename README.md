@@ -97,10 +97,20 @@ Make sure to make the appropriate HTTP requests to these endpoints to perform ta
 
 The backend server provides API endpoints for interacting with the MongoDB Atlas database. You can define your own routes and controllers to handle specific functionalities.
 
+## APP Functionalities
+
+The ToDo list app provides the following features:
+
+- **Get Task**: Fetches the list of tasks from the server and displays them.
+- **Update Task**: Allows users to update the details of a task.
+- **Delete Task**: Enables users to delete a task from the list.
+- **Select Task**: Allows users to mark a task as selected.
+
+You can further customize and enhance these features based on your specific needs.
+
 ## Additional Resources
 
 - React documentation: [https://reactjs.org/docs](https://reactjs.org/docs)
 - Express documentation: [https://expressjs.com](https://expressjs.com)
 - MongoDB Atlas documentation: [https://docs.atlas.mongodb.com](https://docs.atlas.mongodb.com)
 - Visual Studio Code documentation: [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
-
