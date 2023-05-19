@@ -19,12 +19,12 @@ Before proceeding, make sure you have the following installed:
 
 2. Clone the project repository from GitHub:
    ```
-   git clone <repository-url>
+   git clone <>
    ```
 
 3. Open the project folder in Visual Studio Code:
    ```
-   cd <project-folder>
+   cd nosql
    code .
    ```
 
@@ -32,13 +32,13 @@ Before proceeding, make sure you have the following installed:
    - Open the integrated terminal in Visual Studio Code: View -> Terminal.
    - Run the following command to install the dependencies for the backend server:
      ```
-     cd server
+     cd backend
      npm install
      ```
 
    - Run the following command to install the dependencies for the React frontend:
      ```
-     cd ../client
+     cd ../frontend
      npm install
      ```
 
@@ -85,7 +85,20 @@ Feel free to modify and extend the project structure based on your requirements.
 
 ## API Endpoints
 
+The Node.js server provides the following API endpoints for task management:
+
+- **GET /api/tasks** - Retrieves all tasks.
+- **POST /api/tasks** - Creates a new task.
+- **GET /api/tasks/:id** - Retrieves a specific task by ID.
+- **PUT /api/tasks/:id** - Updates a specific task by ID.
+- **DELETE /api/tasks/:id** - Deletes a specific task by ID.
+
+Make sure to make the appropriate HTTP requests to these endpoints to perform task management operations.
+
 The backend server provides API endpoints for interacting with the MongoDB Atlas database. You can define your own routes and controllers to handle specific functionalities.
+
+## APP Functionalities
+
 
 ## Additional Resources
 
@@ -93,5 +106,4 @@ The backend server provides API endpoints for interacting with the MongoDB Atlas
 - Express documentation: [https://expressjs.com](https://expressjs.com)
 - MongoDB Atlas documentation: [https://docs.atlas.mongodb.com](https://docs.atlas.mongodb.com)
 - Visual Studio Code documentation: [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
-
 
